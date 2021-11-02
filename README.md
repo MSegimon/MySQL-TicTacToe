@@ -1,2 +1,2 @@
 # MySQL-TicTacToe
-This is a multiplayer web-based tic-tac-toe that can be played on multiple browser instances. However, it uses a MySQL data based with php in order to connect the two players together.
+This is a multiplayer web-based tic-tac-toe that can be played on multiple browser instances. However, it uses a MySQL data based with php in order to connect the two players together. This was done simply because at the time I only had access to basic webhosting, so I was not able to run node.js sockets. It works by simply putting each player in one of two instances, waiting or playing, that way it can take into account and wait for the data base to update.
