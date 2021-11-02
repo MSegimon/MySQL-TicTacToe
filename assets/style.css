@@ -1,0 +1,50 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    
+    align-items: center;
+}
+
+body {
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+button {
+  font-size: 40px;
+  text-align: center;
+
+  position:relative;
+  top:50%; 
+  left:50%;
+}
+
+input {
+  font-size: 50px;
+}
+
+.boardButtons {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
